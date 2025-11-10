@@ -1,22 +1,45 @@
-# Python Lines of Code Counter
+# 🧮 Python Lines of Code Counter
 
-A simple Python utility that counts the number of actual lines of code in a Python file — ignoring comments and blank lines.  
-Perfect for practicing command-line arguments, file handling, and string operations.
+A simple yet powerful Python utility that counts the number of **actual lines of code** in a Python file — ignoring blank lines and comments.  
+This project demonstrates a clean approach to file handling, command-line argument validation, and logic implementation in Python.
 
-## Features
+---
 
-- Validates command-line arguments.
-- Ensures only `.py` files are analyzed.
-- Ignores blank lines and lines starting with `#`.
-- Handles missing or invalid files gracefully.
+## 📘 Project Overview
 
-## Requirements
+This program, **`lines.py`**, helps you understand how to:
+- Work with **command-line arguments**
+- Handle **file input/output (I/O)**
+- Process and clean text using **string methods**
+- Write clean, readable, and maintainable Python code
 
-- Python 3.x
+It’s a great example of small, functional, and testable code — ideal for showcasing your Python fundamentals.
 
-## Installation
+---
 
-Clone this repository:
+## ✨ Features
+
+- ✅ Counts only **real lines of code**
+- 🚫 Ignores comments (`#`) and blank lines
+- 🧠 Validates input arguments for correctness
+- 📂 Ensures input is a valid `.py` file
+- ⚠️ Gracefully handles errors (missing file, wrong format, etc.)
+- 🧾 Outputs a clear, single count of code lines
+
+---
+
+## 🧰 Technologies Used
+
+- **Python 3.x**
+- Built-in modules only (`sys` and `os`)
+
+No external dependencies required.
+
+---
+
+## 🛠️ Installation
+
+Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/python-lines-of-code-counter.git
